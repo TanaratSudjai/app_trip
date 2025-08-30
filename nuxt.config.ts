@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiBase: "http://localhost:5000", // หรือใช้ process.env.API_BASE
+      apiBase: "https://api-trip-e42n.onrender.com", // หรือใช้ process.env.API_BASE
     },
   },
 });
